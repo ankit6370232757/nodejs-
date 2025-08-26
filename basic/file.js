@@ -1,5 +1,10 @@
 const fs = require("fs");
 
+const os = require("os");
+
+console.log(os.cpus().length);
+
+
 //to create file
 // fs.writeFileSync("./text.txt", "hello this is Ankit Kumar Rath")
 // fs.writeFile("./text.txt", "hello ankit", (err) => {})
@@ -23,8 +28,8 @@ const fs = require("fs");
 //copy
 // fs.cpSync("./text.txt", "./abc.js")
 //delete
-// 
-fs.unlinkSync("./abc.js")
+// fs.unlinkSync("./abc.js")
+
 
 //check state
 
