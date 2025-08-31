@@ -1,0 +1,16 @@
+HTTP METHOD
+
+1.GET METHOD
+Get some data from server
+
+2.POST METHOD
+send and mutate data in server
+
+3.PUT METHOD
+File uploading
+
+4.FETCH METHOD
+change existing data
+
+5. DELETE METHOD
+ delete something
